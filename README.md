@@ -14,6 +14,7 @@ Perform a basic climate analysis & data exploration on Honolulu, Hawaii using Py
 * Retrieve the precipitation data between 2016.08.23 - 2017.08.23 and select only the `date` and `prcp` values
 * Load the query results into a Pandas DataFrame and set the index to the `date` column then sort the DataFrame values by `date`
 * Plot the results using the DataFrame `plot` method
+
   ![precipitation](Images/precipitation.png)
 
 ### Station Analysis
@@ -24,12 +25,12 @@ Perform a basic climate analysis & data exploration on Honolulu, Hawaii using Py
 
 * Retrieve the last 12 months of temperature observation data (TOBS)
   * Filter by the station with the highest number of observations and plot the results as a histogram
+  
     ![station-histogram](Images/station-histogram.png)
 
 ### Temperature Analysis
 * Performed unpaired t-test between average temperature in June and December in Hawaii. The result showed no significant differences between the two months, therefore we can't not reject the null hypothesis
 * Calculate and plot the min, avg, and max temperatures between 2017-01-01 - 2017-01-07 as a bar chart 
-    ![average_temperature](Images/average_temperature.png)
 
 ### Daily Rainfall Average
 * Calculate the rainfall per weather station using the previous year's matching dates
@@ -37,6 +38,7 @@ Perform a basic climate analysis & data exploration on Honolulu, Hawaii using Py
 * Create a list of dates for your trip in the format `%m-%d`. Use the `daily_normals` function  to calculate the normals for each date string and append the results to a list
 * Load the list of daily normals into a Pandas DataFrame and set the index equal to the date
 * Use Pandas to plot an area plot (`stacked=False`) for the daily normals
+
   ![daily-normals](Images/daily-normals.png)
 
 
