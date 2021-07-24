@@ -72,5 +72,4 @@ Design a Flask API based on the queries above.
 
 ## Copyright
 
-Trilogy Education Services © 2019. All Rights Reserved.
-
+Trilogy Education Services © 2021. All Rights Reserved.
